@@ -187,3 +187,21 @@ Hi schnell3526! You've successfully authenticated, but GitHub does not provide s
     > git add .
     ```
 
+- Staging areaの作業内容をコミットする
+
+  ```bash
+  > git commit -m "<commit message>"
+  ```
+
+  コミット時には必ずコミットメッセージをつける
+  基本的には一文で変更内容がわかるようにする
+  書き方はチームでルールが決められていることも少なくない
+  コミット後にはコミットポイントが作られる
+
+  - コミット履歴をみる
+
+    ```bash
+    > git log
+    ```
+
+    
