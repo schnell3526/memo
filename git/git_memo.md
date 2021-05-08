@@ -157,7 +157,7 @@ Hi schnell3526! You've successfully authenticated, but GitHub does not provide s
   ```bash
   > git branch <branch_name>
   ```
-
+  
   作業する内容がわかりやすい名前にする
   長すぎないようにする
   スネークケース
@@ -172,8 +172,18 @@ Hi schnell3526! You've successfully authenticated, but GitHub does not provide s
 
 - 作業内容をステージする
 
-Gitは作業履歴をコミット単位で管理し変更をコミットするには一度Staging areaにあげる必要がある.
-gitはファイルの変更を3つのステージに分けて管理する.
+  Gitは作業履歴をコミット単位で管理し変更をコミットするには一度Staging areaにあげる必要がある.
+  gitはファイルの変更を3つのステージに分けて管理する.
 
-![a](https://github.com/schnell3526/memo/blob/picture/git_github/git01.png?raw=true)
+  ![a](https://github.com/schnell3526/memo/blob/picture/git_github/git01.png?raw=true)
+
+  - 作業内容をstaging area に追加する
+
+    ```bash
+    # 特定のファイルを追加する場合
+    > git add <filename>
+
+    # カレントディレクトリ以下全てのファイルを追加する場合
+    > git add .
+    ```
 
